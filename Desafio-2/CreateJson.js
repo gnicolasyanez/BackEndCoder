@@ -1,0 +1,33 @@
+const fs = require("fs");
+
+const Create = (path) => {
+  let obj = [
+    {
+      title: "Escuadra",
+      price: 258.76,
+      thumbnail:
+        "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+      id: 1,
+    },
+    {
+      title: "Calculadora",
+      price: 879.22,
+      thumbnail:
+        "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+      id: 2,
+    },
+    {
+      title: "Globo Terráqueo",
+      price: 3264.45,
+      thumbnail:
+        "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+      id: 3,
+    },
+  ];
+  fs.writeFile(path, JSON.stringify(obj), function (err) {
+    if (err) throw err;
+    console.log("File is saved.");
+  });
+};
+
+module.exports = Create;

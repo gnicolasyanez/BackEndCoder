@@ -1,11 +1,8 @@
 const path = "./text.json";
-const fs = require("fs");
+const Container = require("../../../utils/classes/Container");
+const container = new Container(path);
 
 module.exports = async (req, res) => {
-  const data = await fs.promises.readFile(path, "utf8", function (err, data) {
-    if (err) throw err;
-    return JSON.parse(data);
-  });
-  const dataJson = JSON.parse(data);
-  res.json(dataJson);
+  const data = await container.getAllItems();
+  res.json(data);
 };

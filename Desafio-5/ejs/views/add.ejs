@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add new Product</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Add new Product</h1>
+    <a href="/products" class="btn">Back to Products</a>
+    <form action="/api/products" method="POST">
+      <input
+        class="form-control"
+        type="text"
+        name="title"
+        id="title"
+        placeholder="Title"
+      />
+      <input
+        class="form-control"
+        type="text"
+        name="price"
+        id="price"
+        placeholder="Price"
+      />
+      <input
+        class="form-control"
+        type="text"
+        name="thumbnail"
+        id="thumbnail"
+        placeholder="Thumbnail"
+      />
+      <input type="submit" class="btn" value="Add new Product" />
+    </form>
+  </body>
+</html>

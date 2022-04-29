@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Add Product
+        style 
+            include styles.css
+    body 
+        h1 Add new Product
+        a.btn(href="/products") Back to All Products
+        form(action="/api/products", method="post") 
+            input.form-control(type="text", name="title", id="title", placeholder="Title")
+            input.form-control(type="text", name="price", id="price", placeholder="Price")
+            input.form-control(type="text", name="thumbnail", id="thumbnail", placeholder="Thumbnail")
+            input.btn(type="submit", value="Add Product")

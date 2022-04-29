@@ -1,0 +1,68 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  max-width: 300px;
+  min-width: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 2rem;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.btn {
+  background: #0073da;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.form-control {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  margin: 10px 0;
+}

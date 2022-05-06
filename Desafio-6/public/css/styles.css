@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#addContainer {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  max-width: 300px;
+  min-width: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 2rem;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.btn {
+  background: #0073da;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+#addProduct {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.form-control {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  margin: 10px 0;
+}
+
+table {
+  width: 50vw;
+  margin: 0 auto;
+  border: #0073da solid 1px;
+}
+
+th {
+  background: #0073da;
+  color: #fff;
+  padding: 10px;
+}
+
+#products td {
+  padding: 10px;
+  color: #0073da;
+  background-color: #fff;
+  border: #0073da solid 1px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#chat {
+  margin-top: 5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#chat h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  margin: 2rem 0;
+}
+
+#form {
+  background: rgba(0, 0, 0, 0.25);
+  padding: 0.25rem;
+  display: flex;
+  height: 3rem;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  margin: 0;
+}
+#email {
+  flex-grow: 0.05;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  margin: 0.25rem;
+}
+#input {
+  border: none;
+  padding: 0 1rem;
+  flex-grow: 0.95;
+  border-radius: 2rem;
+  margin: 0.25rem;
+}
+#input:focus,
+#email:focus {
+  outline: none;
+}
+#form > button {
+  background: #333;
+  border: none;
+  padding: 0 1rem;
+  margin: 0.25rem;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#messages > li {
+  padding: 0.5rem 1rem;
+}
+#messages > li:nth-child(odd) {
+  background: #efefef;
+}
+
+.email {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  color: blue;
+}
+
+.time {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: brown;
+}
+
+.messageText {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  color: green;
+}

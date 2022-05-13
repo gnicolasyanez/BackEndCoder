@@ -1,0 +1,27 @@
+{
+	"id": "ee2cb17e-33e5-4b12-8146-d7a3d40c3102",
+	"values": [
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "cartId",
+			"value": "5",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "prodId",
+			"value": 7,
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-05-11T00:54:29.697Z",
+	"_postman_exported_using": "Postman/9.17.1"
+}

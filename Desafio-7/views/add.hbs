@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Products</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section id="addContainer">
+      <h1>Add new Products</h1>
+      <a href="/products" class="btn">Back to Products</a>
+      <form id="addProduct" action="/api/products" method="post">
+        <input
+          type="text"
+          name="title"
+          id="title"
+          class="form-control"
+          placeholder="Title"
+        />
+        <input
+          type="number"
+          name="price"
+          id="price"
+          class="form-control"
+          placeholder="Price"
+        />
+        <input
+          type="text"
+          name="thumbnail"
+          id="thumbnail"
+          class="form-control"
+          placeholder="Image Url"
+        />
+        <button class="btn" type="submit">Add Product</button>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody id="products">
+        </tbody>
+      </table>
+    </section>
+
+    <section id="chat">
+      <div id="chatContent">
+        <h2>Live Chat</h2>
+        <ul id="messages"></ul>
+      </div>
+      <form id="form">
+        <input id="email" type="email" placeholder="Email" />
+        <input
+          id="input"
+          autocomplete="off"
+          autofocus="true"
+          placeholder="Message"
+        /><button>Send</button>
+      </form>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>

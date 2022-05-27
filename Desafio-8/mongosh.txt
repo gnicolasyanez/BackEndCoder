@@ -1,0 +1,151 @@
+use ecommerce
+db
+db.createCollection("messages")
+db.createCollection("products")
+db.products.insertMany(
+    [
+        {
+            title: "Product 1",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 120
+        },
+        {
+            title: "Product 2",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 580
+        },
+        {
+            title: "Product 3",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 900
+        },
+        {
+            title: "Product 4",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 1280
+        },
+        {
+            title: "Product 5",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 1700
+        },
+        {
+            title: "Product 6",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 2300
+        },
+        {
+            title: "Product 7",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 2860
+        },
+        {
+            title: "Product 8",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 3350
+        },
+        {
+            title: "Product 9",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 4320
+        },
+        {
+            title: "Product 10",
+            thumbnail: "https://placekitten.com/300/200",
+            price: 4990
+        },
+    ]
+)
+db.messages.insertMany(
+    [
+        {
+            email: "email1@gmail.com",
+            message: "Hola",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email2@gmail.com",
+            message: "Hola",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email3@gmail.com",
+            message: "Heyy hola como va eso?",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email4@gmail.com",
+            message: "Hola que tal?",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email5@gmail.com",
+            message: "Hola",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email6@gmail.com",
+            message: "Heyy hola como va eso?",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email7@gmail.com",
+            message: "Hola que tal?",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email8@gmail.com",
+            message: "Hola",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email9@gmail.com",
+            message: "Heyy hola como va eso?",
+            time: "13/05/2022, 0:39:21"
+        },
+        {
+            email: "email10@gmail.com",
+            message: "Hola que tal?",
+            time: "13/05/2022, 0:39:21"
+        }
+        
+    ]
+)
+db.products.find()
+db.messages.find()
+db.products.count()
+db.messages.count()
+db.products.insertOne(
+    {
+        title: "Product 11",
+        thumbnail: "https://placekitten.com/300/200",
+        price: 3576
+    }
+)
+db.products.find( { price: { $lt: 1000 } } )
+db.products.find( { price: { $gte: 1000, $lte: 3000 } } )
+db.products.find( { price: { $gt: 3000 } } )
+db.products.updateMany( { price: { $gt: 100 } }, {$set: {stock: 100} } ) 
+db.products.updateMany( { price: { $gte: 4000 } }, {$set: {stock: 0} } ) 
+db.products.deleteMany( { price: { $lte: 1000 } } )
+db.createUser(   
+    {
+    user: "pepe",
+     pwd: "asd456", 
+    roles: [ { role: "read", db: "ecommerce" } ]  
+     } )
+
+//////////////////////
+CERRAR MONGOD
+ABRIR MONGOD EN LA TERMINAL DE LA SIGUIENTE MANERA
+mongod --auth
+/////////////////////
+
+db.products.insertOne({
+        title: "Product 12",
+        thumbnail: "https://placekitten.com/300/200",
+        price: 13576
+    })
+
+Respuesta: 
+    MongoServerError: not authorized on ecommerce to execute command { insert: "products", documents: [ { title: "Product 12", thumbnail: "https://placekitten.com/300/200", price: 13576, _id: ObjectId('6284542861e8d451e7db1525') } ], ordered: true, lsid: { id: UUID("f8233dcd-396d-419c-858e-ca45891ae03b") }, $db: "ecommerce" }

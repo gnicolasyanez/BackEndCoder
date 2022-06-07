@@ -1,0 +1,132 @@
+[
+    {
+      "cartId": 1,
+      "products": [
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        },
+        {
+          "name": "Escuadra 2",
+          "description": "Una descripcion",
+          "price": 1223.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 2,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        }
+      ],
+      "timestamp": "10/05/2022, 19:37:11"
+    },
+    {
+      "cartId": 2,
+      "products": [
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        }
+      ],
+      "timestamp": "10/05/2022, 21:03:57"
+    },
+    {
+      "cartId": 3,
+      "products": [
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        }
+      ],
+      "timestamp": "10/05/2022, 21:04:02"
+    },
+    {
+      "cartId": 4,
+      "products": [
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        }
+      ],
+      "timestamp": "10/05/2022, 21:04:53"
+    },
+    {
+      "cartId": 5,
+      "products": [
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        },
+        {
+          "name": "Escuadra 2",
+          "description": "Una descripcion",
+          "price": 1223.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 7,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        },
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        },
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        },
+        {
+          "name": "Escuadra",
+          "description": "Una descripcion",
+          "price": 123.45,
+          "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+          "id": 1,
+          "timestamp": "2020-01-01T00:00:00.000Z",
+          "sku": "2ksad23141asd",
+          "stock": 10
+        }
+      ],
+      "timestamp": "10/05/2022, 21:05:54"
+    }
+  ]

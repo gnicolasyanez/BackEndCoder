@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "project_id": "5b3ce7f0b8b9b04e0c8b2b0f",
+  "private_key_id": "d8f9f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f",
+  "private_key": "asdasd",
+  "client_email": "client_email@gmail.com",
+  "client_id": "client_id",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/client_id%40appspot.gserviceaccount.com"

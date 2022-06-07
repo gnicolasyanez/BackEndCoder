@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Globo Terráqueo",
+      "description": "Una descripcion",
+      "price": 345.67,
+      "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+      "id": 3,
+      "timestamp": "2020-01-01T00:00:00.000Z",
+      "sku": "2ksad23173asd",
+      "stock": 80
+    },
+    {
+      "title": "Globo Terráqueo 2",
+      "price": 1345.67,
+      "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+      "description": "Una descripcion 2",
+      "sku": "52a17da3-de63-4a20-b336-5d70a590183d",
+      "timestamp": "1.652.226.577.826",
+      "stock": 80,
+      "id": 4
+    },
+    {
+      "title": "Globo Terráqueo 3",
+      "price": 1345.67,
+      "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+      "description": "Una descripcion 2",
+      "sku": "1e47fe07-d70d-4348-824d-f23e151e210b",
+      "timestamp": "1.652.226.663.413",
+      "stock": 80,
+      "id": 5
+    },
+    {
+      "title": "Globo Terráqueo 4",
+      "price": 1345.67,
+      "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+      "description": "Una descripcion 2",
+      "sku": "1d2d2c83-022c-4a12-9a42-6b0c872d903b",
+      "timestamp": "1.652.227.301.684",
+      "stock": 80,
+      "id": 6
+    },
+    {
+      "title": "Perro Caliente",
+      "price": 35.67,
+      "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+      "description": "Una descripcion de hotdog",
+      "sku": "51c1c28b-827e-4f95-9f28-1ad4bd6c8977",
+      "timestamp": "1.652.227.567.441",
+      "stock": 80,
+      "id": 7
+    }
+  ]

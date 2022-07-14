@@ -1,0 +1,28 @@
+[
+  {
+    "timeStamp": "Fri Jul 01 2022 18:22:23 GMT+0200 (hora de verano de Europa central)",
+    "products": [],
+    "id": 1
+  },
+  {
+    "timeStamp": "Fri Jul 01 2022 18:22:26 GMT+0200 (hora de verano de Europa central)",
+    "products": [],
+    "id": 2
+  },
+  {
+    "timeStamp": "Fri Jul 01 2022 18:22:27 GMT+0200 (hora de verano de Europa central)",
+    "products": [
+      {
+        "title": "Conjunto alternativo blanco",
+        "description": "Conjunto usado por el equipo Recreativo en ocasiones alternativas",
+        "code": "CoAlBl",
+        "price": 2000,
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/projectofinalreactjs.appspot.com/o/conjuntoVarianteBlanco.jpeg?alt=media&token=e6a95478-f400-414f-b039-0dd987a32247",
+        "stock": 10,
+        "id": 1,
+        "timeStamp": "2022-06-07T16:37:59.711Z"
+      }
+    ],
+    "id": 3
+  }
+]

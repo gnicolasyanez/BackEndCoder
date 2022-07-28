@@ -1,0 +1,95 @@
+.main{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #e9ecef;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1rem;
+}
+.loginSuccessful{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #94d9c3;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logoutSuccessful{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #78cef6;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1rem;
+    color: #00176a;
+}
+.buttonCheckout{
+    color: black;
+    background-color: orange;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-color: orange;
+    border-radius: 10px;
+}
+.welcome{
+    color: #39524b;
+}
+.title{
+    color: blue;
+}
+.btn{
+    width: fit-content;
+}
+table{
+    padding: 20px;
+    color: white;
+    background-color: #343a40;   
+}
+td{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.email{
+    color: blue;
+    font-weight: bold;
+}
+.date{
+    margin-left: 10px;
+    color: brown;
+}
+.text{
+    font: italic;
+    margin-left: 10px;
+    color: green;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgAvatar{
+    margin-left: 15px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+.fail{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: 50vh;
+    background-color: #f45656;
+    color: white;
+}

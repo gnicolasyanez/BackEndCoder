@@ -1,0 +1,47 @@
+<div class="loginSuccessful container">
+    <h1 class="welcome"> Bienvenido/a {{this.user}}</h1>
+    <a href="/logout" class="btn btn-warning my-3">Desloguear</a>
+</div>
+<div class="container main">
+            <h1 class="title">Ingrese producto</h1>
+            <form onsubmit="return sendProduct()" class="my-5 d-flex flex-column">
+                <label for="name"><strong>Nombre:</strong></label>
+                <input type="text" id="name" name="name" required class="mb-4">
+                <label for="code"><strong>Código del producto:</strong></label>
+                <input type="text" id="code" name="code" required class="mb-4">
+                <label for="description"><strong>Descripción del producto:</strong></label>
+                <input type="text" id="description" name="description" required class="mb-4">
+                <label for="price"><strong>Precio:</strong></label>
+                <input type="number" id="price" name="price" required class="mb-4">
+                <label for="stock"><strong>Stock:</strong></label>
+                <input type="number" id="stock" name="stock" required class="mb-4">
+                <label for="thumbnail"><strong>Foto URL:</strong></label>
+                <input type="text" id="thumbnail" name="thumbnail" required class="mb-4">
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </form>
+            {{#if products}}
+                <table class="d-flex flex-column">
+                    <thead>
+                        <tr class="d-flex justify-content-between">
+                            <th style="margin-bottom: 20px; width:33.3%">Producto</th>
+                            <th style="margin-bottom: 20px; width:33.3%">Precio</th>
+                            <th style="margin-bottom: 20px; width:33.3%">Imagen</th>
+                        </tr>
+                    </thead>
+                    <tbody id="productContainer"> 
+                        {{#if products}}
+                            {{#each products}}
+                                <tr class="d-flex justify-content-between">
+                                    <td style="margin-bottom: 20px; width:33.3%">{{this.name}}</td>
+                                    <td style="margin-bottom: 20px; width:33.3%">${{price}}</td>
+                                    <td style="margin-bottom: 20px; width:33.3%"><img src={{thumbnail}} alt={{name}} height="150" width="200"></td>
+                                </tr>
+                            {{/each}}
+                        {{/if}}                              
+                    </tbody>
+                </table>
+            {{else}}
+                <h2>No hay productos en la lista</h2>
+            {{/if}}            
+            <a href="/" class="btn btn-primary my-3">Ir a home</a>
+        </div>

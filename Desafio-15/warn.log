@@ -1,0 +1,2 @@
+[2022-08-12T23:12:26.947] [WARN] development - Ruta: /hola Método: GET No implementado
+[2022-08-12T23:12:46.543] [ERROR] development - Error: Error: No existe producto con ese ID

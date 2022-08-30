@@ -1,0 +1,13 @@
+<div class="userData container">
+    <h2>Tu carrito <i class="fas fa-shopping-cart cartIcon"></i></h2>
+    {{#if products}}
+        <ul>
+            {{#each products}}
+                <li>{{this.title}}</li>
+            {{/each}}
+        </ul>
+    {{/if}}      
+    
+    <button class="btn btn-primary" onclick="return newPurchase('{{cartId}}','{{username}}','{{email}}','{{phone}}')">Realizar pedido</button>
+    <a href="/productos" class="btn btn-warning mx-5"> Volver a productos</a>
+</div>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/normalizr@3.6.1/dist/normalizr.browser.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Backend</title>
+</head>
+<body>
+    <div class="container main">
+        <h1 class="title">Centro de mensajes</h1>
+        <h2 class="title" id="compressionPercentage"></h2>
+        <form onsubmit="return sendMessage()">
+            <input type="email" id="email" placeholder="Ingrese su email" required>
+            <input type="text" id="name" placeholder="Ingrese su nombre" required/>
+            <input type="text" id="surname" placeholder="Ingrese su apellido" required/>
+            <input type="number" id="age" placeholder="Ingrese su edad" required/>
+            <input type="text" id="alias" placeholder="Ingrese su alias" required/>
+            <input type="text" id="avatar" placeholder="Ingrese su Avatar (url)" required/>
+            <hr>
+            <div id="messagesContainer"></div>
+            <label for="message"> Ingrese su mensaje:</label>
+            <input type="text" id="message" required>
+            <input type="submit" class="btn btn-primary my-3" value="Enviar!">
+        </form>
+        <a href="/productos" class="btn btn-primary my-3">Ir a productos</a>
+    </div>
+</body>
+</html>

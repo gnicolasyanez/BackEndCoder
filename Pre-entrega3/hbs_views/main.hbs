@@ -1,0 +1,66 @@
+<div class="loginSuccessful container">
+    <h1 class="welcome"> Bienvenido/a {{this.username}}</h1>
+    <img src="avatars/{{this.username}}.jpeg" alt="profile picture" class="imgAvatar">
+    <a href="/user/cart" class="btn btn-primary"><span> Ver Carrito </span><i class="fas fa-shopping-cart cartIcon"></i></a>
+    <a href="/logout" class="btn btn-warning my-3">Desloguear</a>
+</div>
+<div class="userData container">
+    <h2>Datos del usuario:</h2>
+    <div>
+        <p>Email: {{this.email}}</p>
+        <p>Nombre: {{this.name}}</p>
+        <p>Apellido: {{this.surname}}</p>
+        <p>Dirección: {{this.address}}</p>
+        <p>Edad: {{this.age}}</p>
+        <p>Teléfono: {{this.phone}}</p>
+    </div>
+</div>
+<div class="container main">
+            {{#if this.isAdmin}}
+                <h1 class="title">Ingrese producto</h1>
+                <form onsubmit="return sendProduct()" class="my-5 d-flex flex-column">
+                    <label for="name"><strong>Nombre:</strong></label>
+                    <input type="text" id="name" name="name" required class="mb-4">
+                    <label for="code"><strong>Código del producto:</strong></label>
+                    <input type="text" id="code" name="code" required class="mb-4">
+                    <label for="description"><strong>Descripción del producto:</strong></label>
+                    <input type="text" id="description" name="description" required class="mb-4">
+                    <label for="price"><strong>Precio:</strong></label>
+                    <input type="number" id="price" name="price" required class="mb-4">
+                    <label for="stock"><strong>Stock:</strong></label>
+                    <input type="number" id="stock" name="stock" required class="mb-4">
+                    <label for="thumbnail"><strong>Foto URL:</strong></label>
+                    <input type="text" id="thumbnail" name="thumbnail" required class="mb-4">
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+            {{/if}}
+            {{#if products}}
+                <h2 class="title my-5">Nuestros Productos</h2>
+                <table class="d-flex flex-column">
+                    <thead>
+                        <tr class="d-flex justify-content-between">
+                            <th style="margin-bottom: 20px; width:33.3%">Producto</th>
+                            <th style="margin-bottom: 20px; width:33.3%">Precio</th>
+                            <th style="margin-bottom: 20px; width:28.3%">Imagen</th>
+                            <th style="margin-bottom: 20px; width:5%"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="productContainer"> 
+                        {{#if products}}
+                            {{#each products}}
+                                <tr class="d-flex justify-content-between">
+                                    <td style="margin-bottom: 20px; width:33.3%">{{this.title}}</td>
+                                    <td style="margin-bottom: 20px; width:33.3%">${{price}}</td>
+                                    <td style="margin-bottom: 20px; width:28.3%"><img src={{thumbnail}} alt={{title}} height="150" width="200"></td>
+                                    <td style="margin-bottom: 20px; width:5%"><button class="addToCart">+</button></td>
+                                </tr>
+                            {{/each}}
+                        {{/if}}                              
+                    </tbody>
+                </table>
+            {{else}}
+                <h2>No hay productos en la lista</h2>
+            {{/if}}            
+            <a href="/" class="btn btn-primary my-3">Ir a home</a>
+            <script src="https://kit.fontawesome.com/a10c1a1e9e.js" crossorigin="anonymous"></script>
+        </div>

@@ -1,0 +1,9 @@
+[2022-09-07T23:29:23.945] [ERROR] development - Error: ReferenceError: res is not defined
+[2022-09-07T23:37:21.247] [ERROR] development - Error: TypeError: products.getAllProducts is not a function
+[2022-09-12T22:28:47.788] [ERROR] development - Error: TypeError: products.getAll is not a function
+[2022-09-12T22:44:45.375] [ERROR] development - Error: ReferenceError: products is not defined
+[2022-09-12T22:45:21.898] [ERROR] development - Error: TypeError: this.products.getAll is not a function
+[2022-09-12T23:14:29.878] [ERROR] development - Error: TypeError: this.updateDoc is not a function
+[2022-09-12T23:37:03.963] [ERROR] development - Error: TypeError: daoFactory.getById is not a function
+[2022-09-12T23:38:17.167] [ERROR] development - Error: ReferenceError: carts is not defined
+[2022-09-12T23:39:25.786] [ERROR] development - Error: TypeError: cart.data is not a function

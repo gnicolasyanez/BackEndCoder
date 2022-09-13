@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Conjunto alternativo blanco",
+    "price": 1600,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/projectofinalreactjs.appspot.com/o/conjuntoVarianteBlanco.jpeg?alt=media&token=e6a95478-f400-414f-b039-0dd987a32247",
+    "id": 1
+  },
+  {
+    "title": "Pelota de fútbol kappa original",
+    "price": 850,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/projectofinalreactjs.appspot.com/o/ball4.png?alt=media&token=422ec7cd-83a9-4720-ba3c-b50bd178c505",
+    "id": 2
+  },
+  {
+    "title": "Buzo",
+    "price": 1200,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/projectofinalreactjs.appspot.com/o/buzo.jpeg?alt=media&token=5703fe18-b50b-459f-9a51-98fe4cbb471c",
+    "id": 3
+  }
+]

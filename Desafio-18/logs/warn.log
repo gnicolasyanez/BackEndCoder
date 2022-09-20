@@ -1,0 +1,104 @@
+[2022-09-05T23:58:45.277] [WARN] development - Ruta: /productos Método: GET No implementado
+[2022-09-06T00:03:45.128] [WARN] development - Ruta: /user Método: GET No implementado
+[2022-09-06T00:14:57.285] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:16:37.253] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:17:54.854] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:18:14.980] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:18:17.376] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:18:52.937] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:18:56.067] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:22:48.989] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:33:01.606] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:33:06.013] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T00:33:08.116] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T21:27:01.738] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T21:27:33.061] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T21:27:35.755] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-06T21:33:50.406] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-07T23:05:23.389] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-07T23:06:39.080] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-07T23:07:22.213] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-07T23:07:31.111] [WARN] development - Ruta: /avatars/.jpeg Método: GET No implementado
+[2022-09-07T23:08:34.385] [WARN] development - Ruta: /fotaza Método: GET No implementado
+[2022-09-07T23:10:45.116] [WARN] development - Ruta: /fotaza Método: GET No implementado
+[2022-09-07T23:12:20.071] [WARN] development - Ruta: /fotaza Método: GET No implementado
+[2022-09-07T23:16:19.450] [WARN] development - Ruta: /foto Método: GET No implementado
+[2022-09-07T23:29:23.945] [ERROR] development - Error: ReferenceError: res is not defined
+[2022-09-07T23:37:21.247] [ERROR] development - Error: TypeError: products.getAllProducts is not a function
+[2022-09-10T23:15:52.225] [WARN] development - Ruta: /urel%20footo Método: GET No implementado
+[2022-09-10T23:15:54.366] [WARN] development - Ruta: /urel%20footo Método: GET No implementado
+[2022-09-10T23:16:28.820] [WARN] development - Ruta: /urel%20footo Método: GET No implementado
+[2022-09-10T23:16:39.842] [WARN] development - Ruta: /32asda Método: GET No implementado
+[2022-09-10T23:16:39.845] [WARN] development - Ruta: /urel%20footo Método: GET No implementado
+[2022-09-10T23:20:59.052] [WARN] development - Ruta: /qasdasd Método: GET No implementado
+[2022-09-10T23:21:54.214] [WARN] development - Ruta: /qasdasd Método: GET No implementado
+[2022-09-10T23:22:13.462] [WARN] development - Ruta: /asdasd Método: GET No implementado
+[2022-09-10T23:24:02.765] [WARN] development - Ruta: /asdasd Método: GET No implementado
+[2022-09-10T23:24:06.282] [WARN] development - Ruta: /asdasd Método: GET No implementado
+[2022-09-10T23:24:19.252] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:24:23.754] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:24:25.860] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:24:34.253] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:24:42.489] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:25:01.912] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:25:05.336] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:25:10.817] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:25:20.898] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:34:00.288] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-10T23:36:42.551] [WARN] development - Ruta: /req.body.thumbnail Método: GET No implementado
+[2022-09-10T23:39:49.693] [WARN] development - Ruta: /req.body.thumbnail Método: GET No implementado
+[2022-09-10T23:40:25.131] [WARN] development - Ruta: /req.body.thumbnail Método: GET No implementado
+[2022-09-10T23:42:25.897] [WARN] development - Ruta: /req.body.thumbnail Método: GET No implementado
+[2022-09-11T00:05:55.402] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-11T00:07:26.541] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-11T00:08:42.521] [WARN] development - Ruta: /11111 Método: GET No implementado
+[2022-09-11T00:19:29.796] [WARN] development - Ruta: /123123 Método: GET No implementado
+[2022-09-11T00:20:10.984] [WARN] development - Ruta: /123123 Método: GET No implementado
+[2022-09-11T00:20:46.309] [WARN] development - Ruta: /1231asdasd Método: GET No implementado
+[2022-09-11T00:42:40.978] [WARN] development - Ruta: /5555555 Método: GET No implementado
+[2022-09-12T22:28:47.788] [ERROR] development - Error: TypeError: products.getAll is not a function
+[2022-09-12T22:44:45.375] [ERROR] development - Error: ReferenceError: products is not defined
+[2022-09-12T22:45:21.898] [ERROR] development - Error: TypeError: this.products.getAll is not a function
+[2022-09-12T22:53:26.642] [WARN] development - Ruta: /api/carrito/3 Método: GET No implementado
+[2022-09-12T22:53:31.769] [WARN] development - Ruta: /api/carritos/3 Método: GET No implementado
+[2022-09-12T23:14:29.878] [ERROR] development - Error: TypeError: this.updateDoc is not a function
+[2022-09-12T23:15:24.118] [WARN] development - Ruta: /api/carrito/1/productos/2 Método: POST No implementado
+[2022-09-12T23:16:47.730] [WARN] development - Ruta: /api/carrito/5 Método: GET No implementado
+[2022-09-12T23:37:03.963] [ERROR] development - Error: TypeError: daoFactory.getById is not a function
+[2022-09-12T23:38:17.167] [ERROR] development - Error: ReferenceError: carts is not defined
+[2022-09-12T23:39:25.786] [ERROR] development - Error: TypeError: cart.data is not a function
+[2022-09-14T16:55:20.443] [WARN] development - Ruta: /info Método: DELETE No implementado
+[2022-09-14T16:55:24.070] [WARN] development - Ruta: /info Método: DELETE No implementado
+[2022-09-15T23:03:40.778] [ERROR] development - Error: TypeError: update.data is not a function
+[2022-09-15T23:13:02.758] [ERROR] development - Error: ReferenceError: update is not defined
+[2022-09-15T23:22:15.029] [WARN] development - Ruta: /api/product/1000 Método: GET No implementado
+[2022-09-15T23:22:42.544] [WARN] development - Ruta: /api/product/1000 Método: GET No implementado
+[2022-09-15T23:57:03.597] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-15T23:58:05.710] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:04:23.735] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:06:44.889] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:08:02.865] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:08:31.934] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:09:06.971] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:09:37.613] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:10:36.980] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:14:25.274] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:15:05.310] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:15:44.635] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:16:25.783] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:18:46.882] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:20:52.462] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:22:24.304] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T23:40:36.989] [WARN] development - Ruta: /api/carrito/1 Método: GET No implementado
+[2022-09-17T00:27:10.434] [WARN] development - Ruta: /api/carrrito/7/productos/3 Método: DELETE No implementado
+[2022-09-17T00:33:21.889] [ERROR] development - Error: TypeError: Cannot read properties of undefined (reading 'products')
+[2022-09-17T00:38:33.020] [ERROR] development - Error: TypeError: Cannot read properties of undefined (reading 'products')
+[2022-09-17T00:42:48.412] [ERROR] development - Error: Error: [object Object]
+[2022-09-17T00:43:10.922] [ERROR] development - Error: Error: No existe carrito con ese id
+[2022-09-17T00:44:35.102] [ERROR] development - Error: Error: No existe carrito con ese id
+[2022-09-17T00:44:42.596] [ERROR] development - Error: Error: No existe carrito con ese id
+[2022-09-20T23:33:43.520] [ERROR] production - Error: TypeError: productToAdd.hasOwnPropery is not a function
+[2022-09-20T23:34:24.484] [ERROR] production - Error: TypeError: productToAdd.hasOwnPropery is not a function
+[2022-09-20T23:36:06.397] [ERROR] production - Error: TypeError: productToAdd.hasOwnPropery is not a function
+[2022-09-20T23:40:35.662] [ERROR] production - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. Value for argument "dataOrField" is not a valid Firestore value. Cannot use "undefined" as a Firestore value (found in field "products.`1`.title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-20T23:41:22.996] [ERROR] production - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. Value for argument "dataOrField" is not a valid Firestore value. Cannot use "undefined" as a Firestore value (found in field "products.`1`.title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.

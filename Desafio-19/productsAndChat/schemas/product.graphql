@@ -1,0 +1,31 @@
+type product {
+  title: String,
+  code: String,
+  description: String,
+  id:ID!,
+  price: Int,
+  stock: Int,
+  thumbnail: String,
+  timeStamp: String
+}
+
+type Query{
+  getAll(): [product]
+  getById(id:ID): product
+}
+
+input ModifyProductPayload {
+  title: String,
+  code: String,
+  description: String,
+  id:ID!,
+  price: Int,
+  stock: Int,
+  thumbnail: String,
+}
+
+type Mutation{
+  modifyProduct(args: ModifyProductPayload) : product
+  addProduct(title: String, code: String,description: String, price: Int, stock: Int, thumbnail: String): product
+  deleteById(id:ID) : String
+}

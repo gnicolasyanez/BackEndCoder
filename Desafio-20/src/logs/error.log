@@ -1,0 +1,51 @@
+[2022-09-07T23:29:23.945] [ERROR] development - Error: ReferenceError: res is not defined
+[2022-09-07T23:37:21.247] [ERROR] development - Error: TypeError: products.getAllProducts is not a function
+[2022-09-12T22:28:47.788] [ERROR] development - Error: TypeError: products.getAll is not a function
+[2022-09-12T22:44:45.375] [ERROR] development - Error: ReferenceError: products is not defined
+[2022-09-12T22:45:21.898] [ERROR] development - Error: TypeError: this.products.getAll is not a function
+[2022-09-12T23:14:29.878] [ERROR] development - Error: TypeError: this.updateDoc is not a function
+[2022-09-12T23:37:03.963] [ERROR] development - Error: TypeError: daoFactory.getById is not a function
+[2022-09-12T23:38:17.167] [ERROR] development - Error: ReferenceError: carts is not defined
+[2022-09-12T23:39:25.786] [ERROR] development - Error: TypeError: cart.data is not a function
+[2022-09-15T23:03:40.778] [ERROR] development - Error: TypeError: update.data is not a function
+[2022-09-15T23:13:02.758] [ERROR] development - Error: ReferenceError: update is not defined
+[2022-09-15T23:57:03.597] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-15T23:58:05.710] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:04:23.735] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:06:44.889] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:08:02.865] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:08:31.934] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:09:06.971] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:09:37.613] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:10:36.980] [ERROR] development - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-16T00:14:25.274] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:15:05.310] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:15:44.635] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:16:25.783] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:18:46.882] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:20:52.462] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-16T00:22:24.304] [ERROR] development - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. At least one field must be updated.
+[2022-09-17T00:33:21.889] [ERROR] development - Error: TypeError: Cannot read properties of undefined (reading 'products')
+[2022-09-17T00:38:33.020] [ERROR] development - Error: TypeError: Cannot read properties of undefined (reading 'products')
+[2022-09-17T00:42:48.412] [ERROR] development - Error: Error: [object Object]
+[2022-09-17T00:43:10.922] [ERROR] development - Error: Error: No existe carrito con ese id
+[2022-09-17T00:44:35.102] [ERROR] development - Error: Error: No existe carrito con ese id
+[2022-09-17T00:44:42.596] [ERROR] development - Error: Error: No existe carrito con ese id
+[2022-09-20T23:33:43.520] [ERROR] production - Error: TypeError: productToAdd.hasOwnPropery is not a function
+[2022-09-20T23:34:24.484] [ERROR] production - Error: TypeError: productToAdd.hasOwnPropery is not a function
+[2022-09-20T23:36:06.397] [ERROR] production - Error: TypeError: productToAdd.hasOwnPropery is not a function
+[2022-09-20T23:40:35.662] [ERROR] production - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. Value for argument "dataOrField" is not a valid Firestore value. Cannot use "undefined" as a Firestore value (found in field "products.`1`.title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-20T23:41:22.996] [ERROR] production - Error: Error: Update() requires either a single JavaScript object or an alternating list of field/value pairs that can be followed by an optional precondition. Value for argument "dataOrField" is not a valid Firestore value. Cannot use "undefined" as a Firestore value (found in field "products.`1`.title"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-28T17:15:14.112] [ERROR] production - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "stock"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-28T17:16:30.523] [ERROR] production - Error: Error: Value for argument "data" is not a valid Firestore document. Cannot use "undefined" as a Firestore value (found in field "stock"). If you want to ignore undefined values, enable `ignoreUndefinedProperties`.
+[2022-09-28T17:24:25.047] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:25:11.296] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:26:36.224] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:30:52.867] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:31:40.521] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:32:16.658] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:37:19.879] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:37:36.947] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:39:42.694] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:40:00.778] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined
+[2022-09-28T17:40:22.844] [ERROR] production - Error: Error: 5 NOT_FOUND: No document to update: projects/backend-coderhouse-d6df8/databases/(default)/documents/products/undefined

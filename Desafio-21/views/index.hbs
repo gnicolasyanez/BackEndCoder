@@ -1,0 +1,21 @@
+<section style="color: white;">
+  <h1>Bienvenido !</h1>
+  <hr>
+  <br>
+  <br>
+  <form action="/" method="post">
+  <label for="color"> Ingrese un color (En ingles)</label>
+    <input name="color" type="text">
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+  <hr>
+  {{#if colores}}
+    <h2>Colores ingresados hasta el momento:</h2>
+    <ul>
+      {{#each colores}}
+        <li style="color: {{this}};">{{this}}</li>
+      {{/each}}
+    </ul>
+  {{/if}}
+</section>

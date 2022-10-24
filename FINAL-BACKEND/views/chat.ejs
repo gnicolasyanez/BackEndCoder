@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <div class="navBar">
+      <h1>Welcome <%= name %></h1>
+      <a href="/logout"> Logout </a>
+    </div>
+    <h2>Chat</h2>
+  
+    <% if(admin) {%>
+  
+      <h3>Answer to an user</h3>
+      <form action="#" id="systemMessageForm">
+        <div class="formInput">
+          <label for="selectEmail">Select User to answer</label>
+          <select name="selectEmail" id="selectEmail"></select>
+        </div>
+        <div class="formInput">
+          <label for="systemMessage"> Write a message to the user</label>
+          <input type="text" name="systemMessage" id="systemMessage" required>
+        </div>
+        <button type="submit" class="btnSubmit"> Send Response </button>
+      </form>
+  
+    <% } else { %>
+  
+      <h3 class="my-5">Send a messege to the server! </h3>
+      <form action="#" id="userMessageForm" class="my-5">
+        <div class="formInput">
+          <label for="userMessage">Write a message to the system</label>
+          <input type="text" name="userMessage" id="userMessage">
+        </div>
+        <button type="submit" class="btnSubmit"> Send Message</button>
+      </form>
+    <% } %>
+      <% if ( !admin ) { %>
+        <div class="links my-5">
+          <a href="/chat/<%=email%>"> See only my messages </a>
+        </div>
+      <% } %>
+    <div>
+      <ul id="messagesContainer"></ul>
+    </div>
+    <div class="links">
+      <a href="/products"> Go to products </a>
+    </div>
+  </div>
+  <div style="display:none;" id="email"><%=email%></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script defer src="main.js"></script>
+</body>
+</html>

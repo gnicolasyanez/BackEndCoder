@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=}, initial-scale=1.0">
+  <title>My messages</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <div class="navBar my-5">
+      <h1> List of messages of <%= email %> </h1>
+      <a href="/logout"> Logout </a>
+    </div>
+    <ul id="messagesContainer">
+      <% messages.map( (message) => { %>
+        <% if (message.type === "user") { %>
+          <li class="messageContainer">
+            <div class="message">
+              <div class="green"><%=message.email%> :</div> <div> <%=message.message%> </div>
+            </div>
+            <div class="message">
+              <div class="green"> date: </div> <div> <%=message.date%> </div>
+            </div>
+          </li>
+        <% } else { %>
+          <li class="messageContainer">
+            <div class="message">
+              <div class="green"> System: </div> <div> <%=message.message%> </div>
+            </div>
+            <div class="message">
+              <div class="brown"> To: <%=message.email%> </div>
+            </div>
+            <div class="message">
+              <div class="green"> date: </div> <div> <%=message.date%> </div>
+            </div>
+          </li>
+        <% } %>
+      <% }) %>
+      
+      <div class="links">
+        <a href="/chat"> Go to all messages </a>
+      </div>
+  
+    </ul>
+  </div>
+</body>
+</html>
